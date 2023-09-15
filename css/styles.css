@@ -1,3 +1,34 @@
 body {
+
   box-sizing: border-box;
+  margin: 0;
 }
+
+.nav-bar,
+.intro,
+.footer {
+
+  background-color: #1F2937;
+  color:#E5E7EB;
+}
+
+.nav-bar .nav-left-side {
+
+  color: #F9FAF8;
+}
+
+.quote {
+
+  background-color: #E5E7EB;
+}
+
+.quote .testimonial {
+
+  color: #1F2937;
+}
+
+.cta-box {
+
+  background-color: #3882F6;
+}
+
