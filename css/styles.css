@@ -7,6 +7,12 @@ body {
   margin: 0;
 }
 
+a {
+
+  text-decoration: none;
+  color: white;
+}
+
 .nav-bar,
 .intro,
 .footer {
@@ -52,8 +58,34 @@ body {
   padding: 0;
 }
 
+.nav-right-side a {
+  
+  color: #E5E7EB;
+}
+
 /* Intro Stylings */
 
+.intro-left-side {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.intro-left-side .intro-heading {
+
+  font-size: 48px; 
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.intro-left-side .intro-button {
+  
+  display: inline;
+  border-radius: 5px;
+  background-color: #3882F6;
+  padding: 5px 25px;
+}
 
 /* Random Information Stylings */
 
