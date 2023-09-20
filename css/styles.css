@@ -65,6 +65,13 @@ a {
 
 /* Intro Stylings */
 
+.intro {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
 .intro-left-side {
 
   display: flex;
@@ -75,7 +82,7 @@ a {
 .intro-left-side .intro-heading {
 
   font-size: 48px; 
-  font-weight: bold;
+  font-weight: 1000;
   color: #F9FAF8;
 }
 
@@ -85,6 +92,20 @@ a {
   border-radius: 5px;
   background-color: #3882F6;
   padding: 5px 25px;
+}
+
+.intro-right-side {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-right-side .right-side-img {
+
+  background-color: #E5E7EB;
+  width: 200px;
+  height: 100px;
 }
 
 /* Random Information Stylings */
