@@ -1,5 +1,7 @@
 body {
 
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
   margin: 0;
 }
@@ -12,9 +14,34 @@ body {
   color:#E5E7EB;
 }
 
+.nav-bar,
+.intro,
+.random-info,
+.quote,
+.cta,
+.footer {
+
+  padding: 0px 100px;
+}
+
+.nav-bar {
+
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-bar .nav-left-side {
 
   color: #F9FAF8;
+}
+
+.nav-right-side ul{
+
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .quote {
