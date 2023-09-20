@@ -1,3 +1,4 @@
+/* General Stylings */
 body {
 
   display: flex;
@@ -24,6 +25,7 @@ body {
   padding: 0px 100px;
 }
 
+/* Nav-bar stylings */
 .nav-bar {
 
   display: flex;
@@ -50,6 +52,13 @@ body {
   padding: 0;
 }
 
+/* Intro Stylings */
+
+
+/* Random Information Stylings */
+
+
+/* Quote stylings */
 .quote {
 
   background-color: #E5E7EB;
@@ -60,6 +69,7 @@ body {
   color: #1F2937;
 }
 
+/* Call to Action stylings */
 .cta-box {
 
   background-color: #3882F6;
